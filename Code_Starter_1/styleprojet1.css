@@ -1,0 +1,161 @@
+body{
+    box-sizing: border-box;
+    margin: 7%;
+}
+.imgcards{
+    display: flex;
+    justify-content: flex-end;
+}
+h1.titleone{
+    text-align: center;
+    font-weight: lighter;
+    color: hsl(229, 6%, 66%);
+    font-size: 2rem;
+}
+h1.titletwo{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2rem;
+    color: hsl(234, 12%, 34%);
+   
+}
+h3.titlethree{
+    font-weight: bold;
+    color:hsl(234, 12%, 34%)
+    font-size: 1,7rem;
+}
+p.paratop{
+    font-size: 1rem;
+    max-width: 55%;
+    color: hsl(229, 6%, 66%);
+    text-align: center;
+    margin: 4% auto;
+    margin-bottom: 7%;
+}
+.allcard_Technology{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 4%;
+}
+.card_Technology{
+    border-radius: 3px;
+    padding: 5%;
+    box-shadow: 5px 10px 40px hsl(0, 3%, 66%);
+    
+}
+.head_technology{
+    text-align: center;
+}
+.card1_Technology{
+    grid-column: 1;
+    grid-row: span 2;
+    align-self: center;
+    border-top: 4px solid hsl(180, 62%, 55%);
+    
+}
+.card2_Technology{
+    grid-column: 2;
+    grid-row: 1;
+    align-self: end;
+    border-top: 4px solid hsl(0, 78%, 62%);
+}
+.card3_Technology{
+    grid-column: 2;
+    grid-row: 2;
+    align-self: start;
+    border-top: 4px solid hsl(34, 97%, 64%);
+}
+.card4_Technology{
+    grid-column: 3;
+    grid-row: span 2;
+    align-self: center;
+    border-top: 4px solid hsl(212, 86%, 64%);
+}
+footer{
+    text-align: center;
+    margin-top: 5%;
+}
+@media only screen and (max-width: 1000px){
+    .allcard_Technology{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 5%;
+        margin: 7%;
+    }
+    .card_Technology{
+        border-radius: 3px;
+        padding: 5%;
+        box-shadow: 5px 10px 40px hsl(0, 3%, 66%);
+        
+    }
+    .head_technology{
+        text-align: center;
+    }
+    .card1_Technology{
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .card2_Technology{
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .card3_Technology{
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .card4_Technology{
+        grid-column: 2;
+        grid-row: 2;
+}
+footer{
+    text-align: center;
+    margin-top: 30%;
+}
+@media only screen and (max-width: 700px){
+    .allcard_Technology{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-gap: 5%;
+        margin: 7%;
+    }
+    .card_Technology{
+        border-radius: 3px;
+        padding: 5%;
+        box-shadow: 5px 10px 40px hsl(0, 3%, 66%);
+        
+    }
+    .head_technology{
+        text-align: center;
+    }
+    .card1_Technology{
+        grid-column: 1;
+        grid-row: 1;
+        align-self: center;
+    }
+    .card2_Technology{
+        grid-column: 1;
+        grid-row: 2;
+        align-self: end;
+    }
+    .card3_Technology{
+        grid-column: 1;
+        grid-row: 3;
+        align-self: start;
+    }
+    .card4_Technology{
+        grid-column: 1;
+        grid-row: 4;
+        align-self: center;
+}
+footer{
+    text-align: center;
+    margin-top: 35%;
+}
+
+
+
+
+
